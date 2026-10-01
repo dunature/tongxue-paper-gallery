@@ -1,0 +1,756 @@
+{
+  "url": "https://tongxue-paper-gallery.onrender.com",
+  "time": "2026-10-01T15:09:20.044Z",
+  "pages": [
+    {
+      "hash": "#01/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/01-home.png?v=fusion-1",
+      "title": "01 / 窗畔初刊",
+      "design": "01 · 窗畔初刊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/01-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/01-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#01/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/01-papers.png?v=fusion-1",
+      "title": "01 / 窗畔初刊",
+      "design": "01 · 窗畔初刊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/01-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/01-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#01/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/01-demos.png?v=fusion-1",
+      "title": "01 / 窗畔初刊",
+      "design": "01 · 窗畔初刊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/01-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/01-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1449
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#01/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/01-service.png?v=fusion-1",
+      "title": "01 / 窗畔初刊",
+      "design": "01 · 窗畔初刊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/01-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/01-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#02/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/02-home.png?v=fusion-1",
+      "title": "02 / 回廊索引",
+      "design": "02 · 回廊索引",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/02-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/02-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#02/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/02-papers.png?v=fusion-1",
+      "title": "02 / 回廊索引",
+      "design": "02 · 回廊索引",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/02-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/02-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#02/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/02-demos.png?v=fusion-1",
+      "title": "02 / 回廊索引",
+      "design": "02 · 回廊索引",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/02-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/02-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#02/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/02-service.png?v=fusion-1",
+      "title": "02 / 回廊索引",
+      "design": "02 · 回廊索引",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/02-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/02-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#03/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/03-home.png?v=fusion-1",
+      "title": "03 / 中庭叙事",
+      "design": "03 · 中庭叙事",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/03-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/03-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#03/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/03-papers.png?v=fusion-1",
+      "title": "03 / 中庭叙事",
+      "design": "03 · 中庭叙事",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/03-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/03-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#03/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/03-demos.png?v=fusion-1",
+      "title": "03 / 中庭叙事",
+      "design": "03 · 中庭叙事",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/03-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/03-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#03/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/03-service.png?v=fusion-1",
+      "title": "03 / 中庭叙事",
+      "design": "03 · 中庭叙事",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/03-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/03-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#04/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/04-home.png?v=fusion-1",
+      "title": "04 / 折页展墙",
+      "design": "04 · 折页展墙",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/04-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/04-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#04/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/04-papers.png?v=fusion-1",
+      "title": "04 / 折页展墙",
+      "design": "04 · 折页展墙",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/04-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/04-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#04/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/04-demos.png?v=fusion-1",
+      "title": "04 / 折页展墙",
+      "design": "04 · 折页展墙",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/04-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/04-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#04/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/04-service.png?v=fusion-1",
+      "title": "04 / 折页展墙",
+      "design": "04 · 折页展墙",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/04-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/04-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#05/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/05-home.png?v=fusion-1",
+      "title": "05 / 长桌共研",
+      "design": "05 · 长桌共研",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/05-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/05-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#05/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/05-papers.png?v=fusion-1",
+      "title": "05 / 长桌共研",
+      "design": "05 · 长桌共研",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/05-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/05-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#05/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/05-demos.png?v=fusion-1",
+      "title": "05 / 长桌共研",
+      "design": "05 · 长桌共研",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/05-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/05-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#05/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/05-service.png?v=fusion-1",
+      "title": "05 / 长桌共研",
+      "design": "05 · 长桌共研",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/05-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/05-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#06/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/06-home.png?v=fusion-1",
+      "title": "06 / 页间庭院",
+      "design": "06 · 页间庭院",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/06-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/06-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#06/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/06-papers.png?v=fusion-1",
+      "title": "06 / 页间庭院",
+      "design": "06 · 页间庭院",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/06-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/06-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#06/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/06-demos.png?v=fusion-1",
+      "title": "06 / 页间庭院",
+      "design": "06 · 页间庭院",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/06-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/06-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#06/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/06-service.png?v=fusion-1",
+      "title": "06 / 页间庭院",
+      "design": "06 · 页间庭院",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/06-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/06-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#07/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/07-home.png?v=fusion-1",
+      "title": "07 / 典藏编目",
+      "design": "07 · 典藏编目",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/07-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/07-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#07/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/07-papers.png?v=fusion-1",
+      "title": "07 / 典藏编目",
+      "design": "07 · 典藏编目",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/07-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/07-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#07/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/07-demos.png?v=fusion-1",
+      "title": "07 / 典藏编目",
+      "design": "07 · 典藏编目",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/07-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/07-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#07/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/07-service.png?v=fusion-1",
+      "title": "07 / 典藏编目",
+      "design": "07 · 典藏编目",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/07-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/07-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#08/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/08-home.png?v=fusion-1",
+      "title": "08 / 光栅批注",
+      "design": "08 · 光栅批注",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/08-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/08-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#08/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/08-papers.png?v=fusion-1",
+      "title": "08 / 光栅批注",
+      "design": "08 · 光栅批注",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/08-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/08-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#08/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/08-demos.png?v=fusion-1",
+      "title": "08 / 光栅批注",
+      "design": "08 · 光栅批注",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/08-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/08-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#08/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/08-service.png?v=fusion-1",
+      "title": "08 / 光栅批注",
+      "design": "08 · 光栅批注",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/08-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/08-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#09/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/09-home.png?v=fusion-1",
+      "title": "09 / 曲页穹廊",
+      "design": "09 · 曲页穹廊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/09-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/09-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#09/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/09-papers.png?v=fusion-1",
+      "title": "09 / 曲页穹廊",
+      "design": "09 · 曲页穹廊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/09-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/09-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#09/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/09-demos.png?v=fusion-1",
+      "title": "09 / 曲页穹廊",
+      "design": "09 · 曲页穹廊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/09-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/09-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#09/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/09-service.png?v=fusion-1",
+      "title": "09 / 曲页穹廊",
+      "design": "09 · 曲页穹廊",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/09-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/09-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#10/home",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/10-home.png?v=fusion-1",
+      "title": "10 / 卷册阶庭",
+      "design": "10 · 卷册阶庭",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/10-home.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/10-home.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#10/papers",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/10-papers.png?v=fusion-1",
+      "title": "10 / 卷册阶庭",
+      "design": "10 · 卷册阶庭",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/10-papers.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/10-papers.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#10/demos",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/10-demos.png?v=fusion-1",
+      "title": "10 / 卷册阶庭",
+      "design": "10 · 卷册阶庭",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/10-demos.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/10-demos.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    },
+    {
+      "hash": "#10/service",
+      "src": "https://tongxue-paper-gallery.onrender.com/images/10-service.png?v=fusion-1",
+      "title": "10 / 卷册阶庭",
+      "design": "10 · 卷册阶庭",
+      "original": "https://tongxue-paper-gallery.onrender.com/images/10-service.png?v=fusion-1",
+      "download": "https://tongxue-paper-gallery.onrender.com/images/10-service.png?v=fusion-1",
+      "size": [
+        1086,
+        1448
+      ],
+      "notesVisible": true,
+      "notesBelow": true,
+      "notesSections": 13
+    }
+  ],
+  "styles": [
+    {
+      "id": "01",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "02",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "03",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "04",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "05",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "06",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "07",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "08",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "09",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    },
+    {
+      "id": "10",
+      "overview": true,
+      "tiles": 4,
+      "motion": true,
+      "sizing": true,
+      "original": true,
+      "download": true,
+      "previousNext": true
+    }
+  ],
+  "rapid": [
+    {
+      "hash": "#01/service",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 窗畔初刊 · 论文服务…"
+    },
+    {
+      "hash": "#01/papers",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 窗畔初刊 · 科研成果…"
+    },
+    {
+      "hash": "#06/papers",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 页间庭院 · 科研成果…"
+    },
+    {
+      "hash": "#06/home",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 页间庭院 · 首页…"
+    },
+    {
+      "hash": "#08/home",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 光栅批注 · 首页…"
+    },
+    {
+      "hash": "#08/demos",
+      "state": "loading",
+      "visibility": "hidden",
+      "message": "正在加载 光栅批注 · 能力中心…"
+    }
+  ],
+  "retry": true,
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "notesVisible": true
+  },
+  "designDownload": true,
+  "navigation": true,
+  "reducedMotion": true,
+  "passed": true
+}

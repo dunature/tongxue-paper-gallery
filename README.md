@@ -2,6 +2,10 @@
 
 独立的 10 套融合视觉选型图库，每套包含首页、科研成果、能力中心、论文服务。
 
+公开图库：https://tongxue-paper-gallery.onrender.com
+
+完整中文设计说明：https://tongxue-paper-gallery.onrender.com/DESIGN.md
+
 - 浏览入口：`public/index.html`
 - 完整中文说明：`public/DESIGN.md`
 - 生成提示词：`prompts.json`

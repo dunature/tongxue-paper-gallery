@@ -15,9 +15,20 @@
 
 证据：`local-audit.json`、`local-mobile.png`、`local-design-notes.png`；复现脚本 `verify-gallery.mjs`（修改开头的 TaskSpace id 与 base 即可切换验收环境），使用已有 ego-browser，不引入测试框架。
 
-## 发布后验收
+## 发布后验收：通过
 
-待记录独立网址、部署版本与线上原图哈希核验。
+独立网址：https://tongxue-paper-gallery.onrender.com/
+
+部署版本：`dc4728581931dd42d825a7a680f16dfdd02a4531`，Render 部署 `dep-dav7dg142hec73daei0g`，状态 live。
+
+- 40 张线上 PNG 全部与本地原图 SHA-256 一致，响应类型均为 `image/png`。
+- 图片响应包含 `Cache-Control: public, max-age=0, s-maxage=300, no-transform`，禁止 CDN 改写图片。
+- 线上 HTML、JS、CSS、DESIGN.md 与品牌图标均与本地文件一致。
+- 原图库入口文件与原仓库文件一致，原仓库保持干净。
+- 线上再次实际点击 40 页及全部类型控件，10 套完整通过；重复验证快速连续切换、失败重试、手机布局与 DESIGN.md 下载。
+- 品牌首页链接、左右方向键、系统减少动态时默认暂停及手动恢复均通过。
+
+证据：`public-assets.json`、`public-files.json`、`deployment.json`；原图复现命令：`python3 evidence/verify-public-assets.py https://tongxue-paper-gallery.onrender.com`。
 
 ## 验收边界
 

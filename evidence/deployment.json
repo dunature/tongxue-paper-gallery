@@ -1,0 +1,19 @@
+{
+  "url": "https://tongxue-paper-gallery.onrender.com",
+  "serviceId": "srv-dav7dfh42hec73daeg6g",
+  "deployId": "dep-dav7dg142hec73daei0g",
+  "commit": "dc4728581931dd42d825a7a680f16dfdd02a4531",
+  "oldGallery": "https://tongxue-design-gallery.onrender.com",
+  "oldCommit": "ff5083af458161049d29552e0e41c210ded14871",
+  "imageHeader": {
+    "path": "/images/*",
+    "name": "Cache-Control",
+    "value": "public, max-age=0, s-maxage=300, no-transform"
+  },
+  "status": "live",
+  "finishedAt": "2026-10-01T15:05:53.898855Z",
+  "originalPngsVerified": 40,
+  "oldGalleryIndexUnchanged": true,
+  "publicBrowserAuditPassed": true,
+  "publicBrowserPages": 40
+}

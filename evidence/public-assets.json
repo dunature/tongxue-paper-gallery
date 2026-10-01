@@ -1,0 +1,326 @@
+{
+  "url": "https://tongxue-paper-gallery.onrender.com",
+  "assets": [
+    {
+      "path": "images/01-home.png",
+      "bytes": 1951171,
+      "sha256": "2bdba712af43db0c885d8e62029b3eae6034fa1b22801fb2410c8da548137373",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/01-papers.png",
+      "bytes": 1889979,
+      "sha256": "daa7cb71239d2dff01cb26522ab7bc2f3f0c6bc3e6cce12eafc74ff96a4a62bc",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/01-demos.png",
+      "bytes": 1955186,
+      "sha256": "17cd22d36895b60f9b4d5d976dc182972510974ea325199970dd4ba752533d18",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/01-service.png",
+      "bytes": 1931228,
+      "sha256": "2ce468510cd7a3c2fcf767a2cf8522d4eee3be9bb97f96a4afe208ff4a094b9f",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/02-home.png",
+      "bytes": 1869233,
+      "sha256": "43fd2e702d524c58575da9f2a8a2ac6c493779538ed8e0c2110b9fbf8ac46b7a",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/02-papers.png",
+      "bytes": 1693687,
+      "sha256": "70e7d8fda935959323cd45727ea513a973b6b7eac9d36673c7583d5b495aabdd",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/02-demos.png",
+      "bytes": 1927442,
+      "sha256": "b636d0e5eb10d0583b32c86bd3a96803ec7db177c0c446bb378141b8d02b7d0b",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/02-service.png",
+      "bytes": 1841826,
+      "sha256": "cf724842db0a8e768e36ed1f18230d9025b1bc4d39725c781f77c271ce63c30a",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/03-home.png",
+      "bytes": 1859464,
+      "sha256": "d6832257f11d35288631a2e44c4a41aa60422cd1479302f614811a12e6cf92ad",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/03-papers.png",
+      "bytes": 1838182,
+      "sha256": "d24c6d68803b69c63c256a0c407e97abbdb4286d0beaf87505672e4641b0f4d8",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/03-demos.png",
+      "bytes": 1870982,
+      "sha256": "eda31d4813d5ec05b1fd6b4f0eaf2165dc07e772b83768287e5dbcb240f585f7",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/03-service.png",
+      "bytes": 1918338,
+      "sha256": "38139b033503f27dc4a98aca74e8d34a622582054d0aa9563116856377443b47",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/04-home.png",
+      "bytes": 1901788,
+      "sha256": "8d4c811dc4a73ac227f16234753f1ac2a745e3e65baca61f1826923baa986590",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/04-papers.png",
+      "bytes": 1855931,
+      "sha256": "4800b40b35e6f99ef889d28c95bf970cf0991f138d19d574c90a65126d07b476",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/04-demos.png",
+      "bytes": 2023645,
+      "sha256": "830e45848007858c4f17070d6e7e3e36ed9e1e0b0ba835f0626b2a1e7c1deb22",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/04-service.png",
+      "bytes": 1929569,
+      "sha256": "782dbcfa21926350a45dd52ec3094b4ea797d530fbe5fc4a4adbfab622336759",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/05-home.png",
+      "bytes": 1956906,
+      "sha256": "f26401baff09e4f266253c855fb16ab1f2b4349e94919dc48c4528dfbb061de7",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/05-papers.png",
+      "bytes": 1898004,
+      "sha256": "380f2e729718470a2cec90438850665bbd139c56da0db8e7fa2c70e1ca2df77a",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/05-demos.png",
+      "bytes": 2003094,
+      "sha256": "57886672b427301159d978bd7993c7ff74f77bf464357778c43fb0111df9f95c",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/05-service.png",
+      "bytes": 1798153,
+      "sha256": "964be685b45531a143ed09cc7f8d0b2277ccaa29b43709b11599e5aed42127b3",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/06-home.png",
+      "bytes": 1904862,
+      "sha256": "1268a1e48b94e76263657725c4716da78b90802ca7834f1e46381679bc830e3a",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/06-papers.png",
+      "bytes": 1977637,
+      "sha256": "8dadfe9d89b9ec49fefad2d442e9b946c3fbe7fb0acac28f6e8dc03821f1777c",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/06-demos.png",
+      "bytes": 1952116,
+      "sha256": "efd114c695125a0620199c9f05a0c60c84913007ab650e3889d13a64d517c2ad",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/06-service.png",
+      "bytes": 1899324,
+      "sha256": "5614e77d13a544e0da3b6dc52317458d9d6fb4b58483deeb0506447269c0cb7d",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/07-home.png",
+      "bytes": 1855651,
+      "sha256": "8aac84cfc6209c612bc444bfa2f714d06fda9aad4b5ead0964a84c6a52bef63a",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/07-papers.png",
+      "bytes": 1930332,
+      "sha256": "f49bc2144a450f76e671486686cd5f304a599c9445d503986dd4ed9e6bab4e3f",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/07-demos.png",
+      "bytes": 1974266,
+      "sha256": "89ee03e030e30dd900769a5acd0a855add3da52d3d63bfff4da8791753b68b24",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/07-service.png",
+      "bytes": 1906201,
+      "sha256": "69dc3eb6ef48cba3ed03ae464c9acde2905484a34c31d5cc2347f735acb041f2",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/08-home.png",
+      "bytes": 1981416,
+      "sha256": "7d8efda2bcb054b86c74b7ba0983299ab56b657637cf2338269566ce80b98c48",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/08-papers.png",
+      "bytes": 1884173,
+      "sha256": "b4422bc5454cdc1cd1fb2f3a74207c3565782d0d4b09d0840b93d07d9ebf6bf1",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/08-demos.png",
+      "bytes": 1920676,
+      "sha256": "5883e6f8ef1e817147bd186fade12366e42381547155f41b3704f9f9e40e5494",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/08-service.png",
+      "bytes": 1785817,
+      "sha256": "d938567697aa37707feb8b26586cff88bdc4a687a8ce125ddf5f1f739d0f9f39",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/09-home.png",
+      "bytes": 1820886,
+      "sha256": "46e0ab98c4d2e90f545ff65327c0555a7cd346e51bcbbaf52c19d7e1fbe4dfcf",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/09-papers.png",
+      "bytes": 1808467,
+      "sha256": "0695ecf5f534d3d758b1ee4d996709c1e14400252b333560c1ddde4d84a9ea4c",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/09-demos.png",
+      "bytes": 1847989,
+      "sha256": "1a6177021212f873fc60bee41fbfe138ff5c3d0e698532a27d7701322a8fdf19",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/09-service.png",
+      "bytes": 1788972,
+      "sha256": "4bed6fc3dcd0d9821217847fec7dce8f44e5c3368c39afaa8d2e8438a76b41fe",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/10-home.png",
+      "bytes": 2081854,
+      "sha256": "bb7b916670652a1bd11dff38e3f94f318f301aef49648d225ba37fb13db11b87",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/10-papers.png",
+      "bytes": 2005662,
+      "sha256": "74455d7692892c07fd1ae1eebd9727f3f077bdb49d56a214dcc9283fc803e141",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/10-demos.png",
+      "bytes": 2040696,
+      "sha256": "178f657c99499a6c241a0132654d84b7c9488e6b10952e90689467415121d88f",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    },
+    {
+      "path": "images/10-service.png",
+      "bytes": 2035773,
+      "sha256": "013221f8f371c362cdd76bb543a089dcc759c763cb9c29fba9c76375767d6cc9",
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, s-maxage=300, no-transform",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

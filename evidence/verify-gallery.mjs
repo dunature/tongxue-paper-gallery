@@ -54,4 +54,12 @@ await page.evaluate(()=>scrollTo(0,document.querySelector('#designNotes').getBou
 await page.cdp('Emulation.clearDeviceMetricsOverride',{});await page.evaluate(()=>scrollTo(0,document.querySelector('#designNotes').getBoundingClientRect().top+scrollY-240));
 await page.screenshot({path:root+'/evidence/'+label+'-design-notes.png'});
 const mdWait=page.waitForEvent('download',{timeout:30000});await page.click('.design-links a');const md=await mdWait;await md.saveAs(root+'/evidence/DESIGN-download.md');assert(await fs.readFile(root+'/evidence/DESIGN-download.md','utf8')===await fs.readFile(root+'/public/DESIGN.md','utf8'),'Design download');
-report.designDownload=true;report.passed=true;await save();console.log({pages:report.pages.length,styles:report.styles.length,passed:true});
+report.designDownload=true;
+await page.click('.brand');await ready();assert(await page.evaluate(()=>location.hash==='#01/home'),'Brand home');
+await page.keyboard.press('ArrowRight');await ready();assert(await page.evaluate(()=>location.hash==='#02/home'),'Keyboard next');
+await page.keyboard.press('ArrowLeft');await ready();assert(await page.evaluate(()=>location.hash==='#01/home'),'Keyboard previous');report.navigation=true;
+await page.cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
+await page.reload();await ready();assert(await page.evaluate(()=>document.querySelector('#motionButton').getAttribute('aria-pressed')==='false'&&document.body.classList.contains('paused')),'Reduced motion default');
+await page.click('#motionButton');assert(await page.evaluate(()=>document.getAnimations().some(a=>a.effect.target.closest('.fx')&&a.playState==='running')),'Reduced motion manual play');
+await page.cdp('Emulation.setEmulatedMedia',{features:[]});report.reducedMotion=true;
+report.passed=true;await save();console.log({pages:report.pages.length,styles:report.styles.length,passed:true});

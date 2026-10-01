@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "8c637739711cb3b8bc1402f2b6f74674e54d075da979021af82369936896aa01",
+      "passed": true
+    },
+    {
+      "path": "gallery.js",
+      "sha256": "f0db2ad7b2a317242c94a35dc1bb2c4193d4bde247b57c46d3620b371362e576",
+      "passed": true
+    },
+    {
+      "path": "gallery.css",
+      "sha256": "6ee121b58c5f5d25c5fd6a63f47a57f09b700cccf411de1648d1c4babe751e8d",
+      "passed": true
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "81ebdba69cd48d445a8dc794193e86e24fa1feabb7297d52e70c4a0c3018d3e5",
+      "passed": true
+    },
+    {
+      "path": "brand-icon.svg",
+      "sha256": "c2e140ddb5739c8076a1d4e3e3711f5a771188966b5382b7f671cbed5944a126",
+      "passed": true
+    }
+  ],
+  "oldGalleryIndexUnchanged": true
+}
