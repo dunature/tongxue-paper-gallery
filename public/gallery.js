@@ -1,0 +1,483 @@
+const concepts=[{"id": "01", "name": "窗畔初刊", "motion": "窗光缓移 · 纸面微光", "zone": [48, 8, 49, 28], "innerzone": [58, 6, 39, 21], "accent": "#24465A", "fx": "window"}, {"id": "02", "name": "回廊索引", "motion": "展板轻显 · 廊光呼吸", "zone": [58, 8, 40, 26], "innerzone": [58, 6, 39, 21], "accent": "#46636C", "fx": "reveal"}, {"id": "03", "name": "中庭叙事", "motion": "天光呼吸 · 中庭渐明", "zone": [30, 24, 45, 16], "innerzone": [30, 24, 45, 11], "accent": "#667C91", "fx": "skylight"}, {"id": "04", "name": "折页展墙", "motion": "折边掠光 · 展墙渐入", "zone": [48, 8, 49, 28], "innerzone": [58, 6, 39, 21], "accent": "#5C777E", "fx": "fold"}, {"id": "05", "name": "长桌共研", "motion": "长窗缓移 · 桌面掠光", "zone": [12, 23, 78, 20], "innerzone": [20, 21, 73, 18], "accent": "#6B8175", "fx": "window"}, {"id": "06", "name": "页间庭院", "motion": "叶影轻移 · 页边微光", "zone": [42, 9, 45, 29], "innerzone": [58, 6, 39, 21], "accent": "#6B8276", "fx": "garden"}, {"id": "07", "name": "典藏编目", "motion": "藏品渐显 · 纸卡微光", "zone": [48, 9, 48, 29], "innerzone": [58, 6, 39, 21], "accent": "#7A7862", "fx": "reveal"}, {"id": "08", "name": "光栅批注", "motion": "窄窗缓移 · 边注渐明", "zone": [81, 33, 18, 39], "innerzone": [82, 33, 17, 46], "accent": "#456D79", "fx": "slats"}, {"id": "09", "name": "曲页穹廊", "motion": "曲页轻动 · 穹光缓移", "zone": [49, 8, 47, 30], "innerzone": [58, 6, 39, 21], "accent": "#6A8497", "fx": "page"}, {"id": "10", "name": "卷册阶庭", "motion": "阶面缓亮 · 页层掠光", "zone": [52, 8, 45, 23], "innerzone": [58, 6, 39, 21], "accent": "#3D6B70", "fx": "terrace"}];
+const pages=[{key:"home",label:"首页"},{key:"papers",label:"科研成果"},{key:"demos",label:"能力中心"},{key:"service",label:"论文服务"}];
+const designNotes=[
+  {
+    "id": "01",
+    "name": "窗畔初刊",
+    "form": "临窗书桌 × 学术刊物首刊",
+    "idea": "以一本摊开的医学刊物为品牌的第一句话。窗框的投影连接书页与网页留白，让阅读成为进入科研协作的起点。",
+    "inherit": "继承 09 的宋体标题、书册纸边和编辑式分栏；吸收 06 的侧窗采光与浅进深空间，空间始终服务于书页。",
+    "difference": "十套中最接近真实阅览桌的一套：左侧清楚叙事，右侧一本书和一道窗光，不依赖复杂展厅。",
+    "visual": "米白棉纸、浅橡木桌、深蓝书签；自然侧光，纸纤维只在留白中轻微可见。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F6F3EB"
+      ],
+      [
+        "阅读面板",
+        "#FFFFFF"
+      ],
+      [
+        "强调色",
+        "#24465A"
+      ],
+      [
+        "正文",
+        "#22323F"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "左侧大标题与右侧临窗摊开的书册约四五分；下方三列能力细线分栏，内页延续主栏与窄侧注。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“窗光缓移 · 纸面微光”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合正式品牌官网和医院合作介绍，内容与空间感最均衡。",
+    "implementation": "优先以一张书册主视觉配合真实文字和 CSS 网格落地，内页保持单一阅读主线。",
+    "avoid": "右侧书册可以更换为实际成果封面；避免在正文上铺纹理或投射窗框阴影。",
+    "pages": {
+      "home": "左侧品牌主张与临窗书册建立入口，三项能力沿纸页分栏展开。",
+      "papers": "把论文正文作为阅读主栏，方法说明和图注放入窄侧栏；保留窗光与书册的局部照片。",
+      "demos": "以平整纸卡组织能力，重点解剖画面与论文、图表条目形成清楚主次。",
+      "service": "四步流程沿阅读方向展开，五件套以桌面文档组合承接，强调可逐项核对。"
+    },
+    "fx": "window",
+    "motionName": "窗光缓移 · 纸面微光"
+  },
+  {
+    "id": "02",
+    "name": "回廊索引",
+    "form": "书脊目录 × 纵向回廊秩序",
+    "idea": "把期刊目录变为一条可以逐段阅读的学术回廊。每个章节都像一扇有编号的门，入口明确，内容有序展开。",
+    "inherit": "继承 09 的目录、页码与书脊分隔；继承 06 的柱列和展板节奏，柱距转译为栅格而非背景装饰。",
+    "difference": "以贯穿全页的左侧章节索引和连续纵向模块形成差异；不使用居中的大开本书作为主角。",
+    "visual": "象牙纸、石灰岩、亚麻书脊；低对比漫射光，细窄蓝灰竖线。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F3F0E8"
+      ],
+      [
+        "阅读面板",
+        "#FFFDFA"
+      ],
+      [
+        "强调色",
+        "#46636C"
+      ],
+      [
+        "正文",
+        "#26343B"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "窄左边栏列出章节编号，宽右栏为叙事与内容；主视觉是平直柱廊中的薄册陈列，内页逐节展开。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“展板轻显 · 廊光呼吸”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合内容较多、后续持续增加成果的学术门户。",
+    "implementation": "桌面用两栏 Grid，手机把章节目录改成顶部横向锚点；目录与页面导航不能混淆。",
+    "avoid": "目录有利于检索但会减少主图宽度；索引只保留当前页面的真实章节。",
+    "pages": {
+      "home": "以左侧章节目录贯穿首页，柱廊节拍与内容编号呼应。",
+      "papers": "三重研究视角依次对应三个纵向章节，用边注承接方法与图表说明。",
+      "demos": "延续左侧索引，右侧按六项能力和状态组织陈列卡片。",
+      "service": "保留章节边栏，四步流程、模拟看板、五项交付沿纵向次序呈现。"
+    },
+    "fx": "reveal",
+    "motionName": "展板轻显 · 廊光呼吸"
+  },
+  {
+    "id": "03",
+    "name": "中庭叙事",
+    "form": "中央书册 × 天窗下的章节叙事",
+    "idea": "以安静的中庭作为共同研究的精神场所，一本书处在天光中心。品牌叙事从中心向外展开，再回归整齐的阅读段落。",
+    "inherit": "继承 09 的开本书、居中书名页与细横线；吸收 06 的中庭、天窗和对称轴线。",
+    "difference": "十套中唯一以居中对称首屏和圆形天窗建立秩序；每个大章节采用整幅横向图文带。",
+    "visual": "暖白石膏、厚实书纸、浅砂岩台座；天窗柔和顶光，不使用科幻悬浮图层。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F5F2EC"
+      ],
+      [
+        "阅读面板",
+        "#FCFBF8"
+      ],
+      [
+        "强调色",
+        "#667C91"
+      ],
+      [
+        "正文",
+        "#263649"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "顶部中心标题，下方天窗中的打开书册与低矮展台；正文分为宽幅章节带，避免满屏小卡片。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“天光呼吸 · 中庭渐明”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合品牌发布、工作坊开场与强调学术共同体的介绍。",
+    "implementation": "中庭画面只作为静态主视觉；正文以宽幅区块落地，中心段落宽度限制在可读范围。",
+    "avoid": "仪式感较强但信息密度较低，成果内页应缩短空间画面，给真实摘要让位。",
+    "pages": {
+      "home": "居中标题、天窗与展开的书册建立同一条视觉轴线。",
+      "papers": "收短中庭画面，以居中研究标题和宽幅论证章节承接三重视角。",
+      "demos": "通过中心重点体验和两侧辅助能力组织层级，正文回到清晰平面网格。",
+      "service": "四步流程围绕中轴均衡展开，交付物形成有序横带。"
+    },
+    "fx": "skylight",
+    "motionName": "天光呼吸 · 中庭渐明"
+  },
+  {
+    "id": "04",
+    "name": "折页展墙",
+    "form": "手风琴折页 × 连续学术展墙",
+    "idea": "把一份有序折起的研究简报延伸为展墙。折线既是纸张结构，也是内容分区，让从问题到成果的阅读有清楚的转折。",
+    "inherit": "继承 09 的折页、印刷网格和纸张厚度；吸收 06 的分段展墙和斜向空间透视。",
+    "difference": "以连续折线和横向三联版式区别于其他方案；折痕只在模块交界，不穿过文字。",
+    "visual": "浅暖白无涂布纸、略粗纸边、哑光石台；柔侧光凸显山折与谷折。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F4F1E9"
+      ],
+      [
+        "阅读面板",
+        "#FFFDF7"
+      ],
+      [
+        "强调色",
+        "#5C777E"
+      ],
+      [
+        "正文",
+        "#2D3B40"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "上部通栏标题与横向折页展墙，主体用三联阅读面板；成果页按三重视角分面展示。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“折边掠光 · 展墙渐入”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合希望直接解释复杂协作流程与研究视角的页面。",
+    "implementation": "用真实平面卡片和边界阴影模拟折页，手机逐面垂直排列，无须强制横向拖动。",
+    "avoid": "折页不能压缩正文栏宽；手机保留章节顺序，移除斜切透视。",
+    "pages": {
+      "home": "三联折页把临床问题、研究方法与成果表达为连续叙事。",
+      "papers": "临床、方法、交付各有一块阅读面，折痕只承担分隔。",
+      "demos": "六项能力以展墙单元排列，解剖预览面积更大，状态标签贴近标题。",
+      "service": "四步协作像逐面展开的折页，五项交付独立成组。"
+    },
+    "fx": "fold",
+    "motionName": "折边掠光 · 展墙渐入"
+  },
+  {
+    "id": "05",
+    "name": "长桌共研",
+    "form": "桌面期刊工作坊 × 开放阅览空间",
+    "idea": "把科研协作呈现为同坐一张长桌阅读与推敲。纸册、图表和注释按工作次序排开，空间温暖但保持专业整洁。",
+    "inherit": "继承 09 的实体期刊和边注；吸收 06 的长桌、窗列与共享空间比例。",
+    "difference": "独有俯斜视角的长桌与连续桌面分区；核心不是一本孤立书册，而是按角色组织的同一研究资料。",
+    "visual": "浅橡木、自然白书纸、磨砂金属书挡；多扇高窗带来均匀日光。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F2EEE5"
+      ],
+      [
+        "阅读面板",
+        "#FEFCF6"
+      ],
+      [
+        "强调色",
+        "#6B8175"
+      ],
+      [
+        "正文",
+        "#303D3A"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "通栏刊头下安排宽幅长桌图景；主体使用不对称双栏，能力以纵向条目呈现，另一栏组织研究文稿与成果交付。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“长窗缓移 · 桌面掠光”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合强调团队协作、课题推进和服务交付的品牌沟通。",
+    "implementation": "使用单张桌面摄影式主视觉与两栏真实内容；页面中的角色只写医生与科研协作，不虚构成员。",
+    "avoid": "暖木色要克制，避免咖啡馆或家居广告气质；减少桌上道具，保持研究资料主角地位。",
+    "pages": {
+      "home": "通栏刊头、宽幅共享长桌与非对称双栏共同建立工作坊氛围。",
+      "papers": "把研究摘要和图表安排为左右对读的文稿，桌面照片作为过渡。",
+      "demos": "能力以纵向条目和较大的重点预览组合，不依赖同尺寸小卡片堆叠。",
+      "service": "用左侧过程与右侧交付材料形成协作对读关系，模拟看板明确标注。"
+    },
+    "fx": "window",
+    "motionName": "长窗缓移 · 桌面掠光"
+  },
+  {
+    "id": "06",
+    "name": "页间庭院",
+    "form": "框景式书页 × 自然采光庭院",
+    "idea": "在密度适中的学术页面中留出一座安静庭院。纸张边框像窗口，绿意与天光只出现在空白中，形成舒展的阅读节奏。",
+    "inherit": "继承 09 的纸页白边与书刊边距；吸收 06 的建筑框景和室内外光线关系。",
+    "difference": "通过大面积中央留白与矩形庭院框景形成差异；空间是被纸页围合的负形，而不是大场景背景。",
+    "visual": "浅灰绿书签、暖白纸、细腻灰泥；少量树影落在边界与展台，正文完全清楚。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F2F3EB"
+      ],
+      [
+        "阅读面板",
+        "#FEFEF9"
+      ],
+      [
+        "强调色",
+        "#6B8276"
+      ],
+      [
+        "正文",
+        "#2D4039"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "左右两块编辑文字围合中央庭院图景，下方以横向章节和宽间距卡片承接；内页保留框景边缘。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“叶影轻移 · 页边微光”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合长期阅读与强调医学人文温度的官网。",
+    "implementation": "庭院作为静态图，叶影用低透明度渐变或短视频局部叠加；手机改为标题、图景、正文顺序。",
+    "avoid": "绿意不能暗示临床疗效；不要使用大量植物装饰挤占科研内容。",
+    "pages": {
+      "home": "以纸页边框围合庭院留白，少量绿意表达医学人文温度。",
+      "papers": "研究摘要落在宽阔浅纸面上，庭院框景缩为章节图，图表不叠树影。",
+      "demos": "浅灰绿标签区分能力状态，留足卡片间距，让不同能力易于浏览。",
+      "service": "连续水平章节承接四步与交付，框景只出现在头部和咨询区。"
+    },
+    "fx": "garden",
+    "motionName": "叶影轻移 · 页边微光"
+  },
+  {
+    "id": "07",
+    "name": "典藏编目",
+    "form": "档案卡片 × 学术藏品陈列",
+    "idea": "把成果与能力当作可以被有序查阅的学术藏品。编目标签、薄册封面和小展台组成可信的内容索引。",
+    "inherit": "继承 09 的纸质目录卡、书脊与装帧细节；吸收 06 的低矮展台和博物馆式陈列。",
+    "difference": "以编目卡和标签为核心，而非大图叙事；页面内容可浏览、可定位，展台只是索引层的空间补充。",
+    "visual": "奶白厚卡、织物书脊、浅砂色台面；温和定向光突出物件边缘。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F3EFE6"
+      ],
+      [
+        "阅读面板",
+        "#FFFCF4"
+      ],
+      [
+        "强调色",
+        "#7A7862"
+      ],
+      [
+        "正文",
+        "#343A37"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "左侧大号目录与短摘要，右侧两层低展台陈列医学薄册；下方采用紧凑但清楚的卡片目录。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“藏品渐显 · 纸卡微光”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合成果库、能力目录及需要快速查找内容的门户。",
+    "implementation": "编目卡采用语义化列表；筛选状态应以文字加底色表达，避免依赖卡片照片中的文字。",
+    "avoid": "视觉编目号只表示页面章节，不编造论文编号、期刊卷期或馆藏认证。",
+    "pages": {
+      "home": "以书册和编目标签建立学术藏品目录的第一印象。",
+      "papers": "研究案例以独立编目项呈现；标签只说明研究主题与内容种类。",
+      "demos": "六项能力以目录卡组织，解剖为重点藏品，其余按类型查阅。",
+      "service": "每项交付对应一张明确纸卡，流程与模拟看板采用同一编号秩序。"
+    },
+    "fx": "reveal",
+    "motionName": "藏品渐显 · 纸卡微光"
+  },
+  {
+    "id": "08",
+    "name": "光栅批注",
+    "form": "期刊边注 × 窄窗光栅",
+    "idea": "让期刊的边注与建筑的窄窗形成同一种节奏。细密但清楚的对齐线承载研究信息，轻光落在边缘，保持冷静的阅读秩序。",
+    "inherit": "继承 09 的细线分栏、边注与编辑留白；吸收 06 的竖向窗栅和自然明暗节拍。",
+    "difference": "以窄栏侧注和明确的纵向节拍突出编辑感，是十套中最平面、最接近成熟学术出版物的一套。",
+    "visual": "平整象牙纸、薄金属书夹、亚麻布面；竖窗投影仅在空白边缘出现。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F7F5EE"
+      ],
+      [
+        "阅读面板",
+        "#FFFFFF"
+      ],
+      [
+        "强调色",
+        "#456D79"
+      ],
+      [
+        "正文",
+        "#20353D"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "大号居中宋体刊头下，以主栏与窄批注栏组织阅读；三项能力为纵向编辑条目，建筑窄窗照片限制在页边。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“窄窗缓移 · 边注渐明”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合重视阅读效率、论文细节与可维护性的正式官网。",
+    "implementation": "以 CSS Grid、细分隔线和可选择文本为主，图像比重最低；移动端把边注归入对应段落。",
+    "avoid": "细线不能代替信息层级；避免过多窄栏和过细宋体，保证普通屏幕下的正文清晰。",
+    "pages": {
+      "home": "以宋体刊头、纵向能力条目与右侧批注栏为主，建筑图仅占边缘小幅。",
+      "papers": "论文主栏配方法批注和图例，研究证据清楚地嵌入阅读网格。",
+      "demos": "能力按专题条目逐项呈现，用小型模型和图表插图取代大幅空间背景。",
+      "service": "流程与交付以编辑式列表展开，边注说明验收关系，阅读始终优先。"
+    },
+    "fx": "slats",
+    "motionName": "窄窗缓移 · 边注渐明"
+  },
+  {
+    "id": "09",
+    "name": "曲页穹廊",
+    "form": "弧形书页 × 柔性穹顶空间",
+    "idea": "书页轻轻弯曲的轮廓延伸成一段穹廊，用同一条弧线连接纸张与建筑。整体柔和连续，同时保留期刊阅读的秩序。",
+    "inherit": "继承 09 的翻页曲线与书脊层次；吸收 06 的穹顶、弧墙与漫反射采光。",
+    "difference": "唯一以连续弧面组织主视觉的方案；页面整体偏单栏和宽幅摘要，不使用硬朗目录格。",
+    "visual": "柔韧书纸、哑光白石膏、浅蓝布面书脊；柔顶光强调曲率，阴影边界柔和。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F3F4EF"
+      ],
+      [
+        "阅读面板",
+        "#FFFFFF"
+      ],
+      [
+        "强调色",
+        "#6A8497"
+      ],
+      [
+        "正文",
+        "#273B49"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "上部宽幅曲页穹廊主视觉，标题位于平整留白区；正文沿单一阅读主线展开，局部双栏图注。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“曲页轻动 · 穹光缓移”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合强调温和专业与品牌辨识度的首页，以及低密度成果介绍。",
+    "implementation": "用静态曲页视觉或轻微局部变形素材，正文保持普通矩形网格，不让整页参与三维翻转。",
+    "avoid": "曲页不能承载大量细字；将真实图表从曲面移回平面，兼顾画面与阅读。",
+    "pages": {
+      "home": "曲页与穹顶共享柔和弧线，正文和行动点保留稳定矩形区域。",
+      "papers": "收束穹顶视觉，以宽幅摘要和连续阅读章节组织研究内容。",
+      "demos": "重点解剖置于平整展示区，辅助条目用柔和分区延续曲页气质。",
+      "service": "四步与五件套沿单一阅读轴线展开，弧形只用于章节间的视觉转场。"
+    },
+    "fx": "page",
+    "motionName": "曲页轻动 · 穹光缓移"
+  },
+  {
+    "id": "10",
+    "name": "卷册阶庭",
+    "form": "叠页阶台 × 学术内容层级",
+    "idea": "将纸页的厚度化为小尺度阶台，把品牌、能力、成果和交付按层级依次展开。每个层级都能独立阅读，也能看出整体关系。",
+    "inherit": "继承 09 的叠页、书册切口和章节页；吸收 06 的低阶展台、水平层次与空间留白。",
+    "difference": "以横向错层台阶和内容层级为主，区别于回廊的纵向连续和中庭的中心聚合。",
+    "visual": "温白厚纸、浅石材台阶、深青蓝章节条；自然斜光强调层次但保持低对比。",
+    "palette": [
+      [
+        "纸感背景",
+        "#F2F0E8"
+      ],
+      [
+        "阅读面板",
+        "#FBFAF5"
+      ],
+      [
+        "强调色",
+        "#3D6B70"
+      ],
+      [
+        "正文",
+        "#24383C"
+      ]
+    ],
+    "type": "建议中文标题使用思源宋体，正文与控件使用思源黑体或苹方；正文 16–18px、行高 1.8，元信息不小于 12px。真实网页以可选择文字呈现，避免把正文烘焙进背景。",
+    "layout": "通栏标题与窄幅叠页阶台开场，三项能力采用逐级缩进的水平纸页带，成果与交付收束为简洁索引行。",
+    "components": "主要行动使用清楚的实色按钮，次要行动使用细描边；信息卡片以实底、细线和足够留白为主。导航沿用首页、科研成果、能力中心、论文服务，始终保持一致。",
+    "motion": "当前图库用局部 CSS 氛围层演示“阶面缓亮 · 页层掠光”，每轮约 18–28 秒；仅覆盖主视觉留白，正文静止，可暂停并尊重系统减少动态设置。实际翻页、三维漫游和咨询不在静态图中实现。",
+    "fit": "适合把多种能力和交付内容呈现出优先级的官网与演示场景。",
+    "implementation": "真实内容用普通 Grid 表达分级，装饰阶台只在主视觉中；手机按语义顺序从上到下。",
+    "avoid": "避免把模块做成过多高低浮动卡片；层级最多三层，避免让读者猜测阅读顺序。",
+    "pages": {
+      "home": "通栏标题下，三项能力以逐级缩进的横向纸页带展开。",
+      "papers": "以临床问题、研究方法、成果交付三个层级形成水平章节节奏。",
+      "demos": "六项能力依主次分层，重点预览占首层，储备能力清楚放在后层。",
+      "service": "四步协作和交付清单逐层落下；层级表达内容关系，不表示未经证实的完成度。"
+    },
+    "fx": "terrace",
+    "motionName": "阶面缓亮 · 页层掠光"
+  }
+];
+const q=s=>document.querySelector(s);
+const imageSource=(id,key)=>"images/"+id+"-"+key+".png?v=fusion-1";
+let nativeSize=true;
+let imageRequest=0;
+async function loadImage(src,description){
+  const request=++imageRequest,img=q("#concept"),stage=q(".stage");
+  stage.dataset.state="loading";
+  stage.setAttribute("aria-busy","true");
+  q("#loadMessage").textContent="正在加载 "+description+"…";
+  q("#retryImage").hidden=true;
+  q("#pixelInfo").textContent="";
+  img.alt=description+"视觉设计图";
+  img.src=src;
+  try{
+    await img.decode();
+    if(request!==imageRequest)return;
+    syncView();
+    stage.dataset.state="ready";
+    stage.setAttribute("aria-busy","false");
+    q("#loadMessage").textContent="";
+  }catch(error){
+    if(request!==imageRequest)return;
+    stage.dataset.state="error";
+    stage.setAttribute("aria-busy","false");
+    q("#loadMessage").textContent=description+"暂未加载成功，请重试。";
+    q("#retryImage").hidden=false;
+  }
+}
+function syncView(){const img=q("#concept");if(!img.complete||!img.naturalWidth)return;const ratio=window.devicePixelRatio||1;const stage=q(".stage"),style=getComputedStyle(stage);const border=parseFloat(style.borderLeftWidth)+parseFloat(style.borderRightWidth);stage.style.maxWidth=((nativeSize?img.naturalWidth/ratio:Math.min(1230,img.naturalWidth))+border)+"px";q("#nativeSize").setAttribute("aria-pressed",String(nativeSize));q("#fitSize").setAttribute("aria-pressed",String(!nativeSize));q("#pixelInfo").textContent="原图 "+img.naturalWidth+" × "+img.naturalHeight;}
+const hash=location.hash.slice(1).split("/");
+let index=Math.max(0,concepts.findIndex(d=>d.id===hash[0]));
+let pageKey=pages.some(p=>p.key===hash[1])?hash[1]:"home";
+let overview=false;
+let paused=matchMedia("(prefers-reduced-motion: reduce)").matches;
+q(".choices").innerHTML=concepts.map((d,i)=>'<button class="choice" data-index="'+i+'" aria-pressed="false"><img src="'+"images/thumbs/"+d.id+"-home.png"+'" alt="" loading="lazy"><div><small>STYLE '+d.id+' · 4 PAGES</small><b>'+d.name+'</b></div></button>').join("");
+q(".page-tabs").innerHTML=pages.map(p=>'<button class="page-tab" data-page="'+p.key+'" aria-pressed="false">'+p.label+'</button>').join("");
+function syncMotion(){document.body.classList.toggle("paused",paused);q("#motionButton").textContent=paused?"播放光效":"暂停光效";q("#motionButton").setAttribute("aria-pressed",String(!paused));}
+function renderOverview(){const d=concepts[index];q(".overview").innerHTML=pages.map(p=>'<button class="tile" data-page="'+p.key+'"><div class="tile-image"><img src="'+imageSource(d.id,p.key)+'" alt="'+d.name+' · '+p.label+'" loading="lazy"></div><div><b>'+p.label+'</b><small>'+d.name+' · '+(p.key==="home"?"首页原稿":"内页设计")+'</small></div></button>').join("");}
+function renderDesignNotes(id){
+  const n=designNotes.find(item=>item.id===id);
+  q("#designStyle").textContent=n.id+" · "+n.name;
+  q("#designForm").textContent=n.form;
+  q("#designBody").innerHTML='<p class="design-intro">'+n.idea+'</p><p class="design-caption">推荐落地色板 · 具体色值与字体为设计建议</p><div class="design-palette">'+n.palette.map(([label,color])=>'<span><i style="background:'+color+'" aria-hidden="true"></i>'+label+' <code>'+color+'</code></span>').join('')+'</div><dl class="design-grid">'+[["融合来源",n.inherit],["核心区别",n.difference],["视觉语言",n.visual],["字体与排版",n.type+" "+n.layout],["材质与组件",n.components],["动效节奏",n.motion],["适用场景",n.fit],["实现建议",n.implementation],["取舍与边界",n.avoid]].map(([label,text])=>'<div><dt>'+label+'</dt><dd>'+text+'</dd></div>').join('')+'</dl><h3>四类页面如何延续</h3><dl class="design-grid design-page-notes">'+pages.map(p=>'<div><dt>'+p.label+'</dt><dd>'+n.pages[p.key]+'</dd></div>').join('')+'</dl>';
+}
+function show(i,key=pageKey){index=(i+concepts.length)%concepts.length;pageKey=key;const d=concepts[index];const p=pages.find(x=>x.key===pageKey);const src=imageSource(d.id,pageKey);renderDesignNotes(d.id);q("#title").textContent=d.id+" / "+d.name;q("#counter").textContent="TONGXUE · 书页与长廊 · 10 × 4";loadImage(src,d.name+" · "+p.label);q("#pageLabel").textContent=p.label;q("#motionName").textContent=d.motion;q("#original").href=src;q("#download").href=src;q("#download").download=d.id+"-"+pageKey+".png";const z=pageKey==="home"?d.zone:d.innerzone;const f=q(".fx");f.className="fx fx-"+d.fx;f.style.cssText="left:"+z[0]+"%;top:"+z[1]+"%;width:"+z[2]+"%;height:"+z[3]+"%;--accent:"+d.accent;f.innerHTML='<div class="light"></div><div class="shade"></div><div class="paper-edge"></div>';document.querySelectorAll(".choice").forEach((b,n)=>b.setAttribute("aria-pressed",String(n===index)));document.querySelectorAll(".page-tab").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.page===pageKey)));history.replaceState(null,"","#"+d.id+"/"+pageKey);}
+function setOverview(value){overview=value;if(value)renderOverview();q(".overview").hidden=!value;q(".focus").hidden=value;q("#overviewButton").textContent=value?"返回单页":"整套对比";q("#motionButton").hidden=value;}
+document.querySelectorAll(".choice").forEach(b=>b.addEventListener("click",()=>{show(Number(b.dataset.index));setOverview(false);}));
+q(".page-tabs").addEventListener("click",e=>{const b=e.target.closest("[data-page]");if(b){show(index,b.dataset.page);setOverview(false);}});
+q(".overview").addEventListener("click",e=>{const b=e.target.closest("[data-page]");if(b){show(index,b.dataset.page);setOverview(false);scrollTo({top:0,behavior:"instant"});}});
+q("#motionButton").onclick=()=>{paused=!paused;syncMotion();};
+q("#overviewButton").onclick=()=>setOverview(!overview);
+q("#previous").onclick=()=>show(index-1);q("#next").onclick=()=>show(index+1);
+document.addEventListener("keydown",e=>{if(e.target.matches("input,textarea,select")||e.metaKey||e.ctrlKey||e.altKey)return;if(e.key==="ArrowRight"||e.key==="ArrowLeft"){e.preventDefault();show(index+(e.key==="ArrowRight"?1:-1));setOverview(false);}});
+window.addEventListener("hashchange",()=>{const [id,key]=location.hash.slice(1).split("/");const i=concepts.findIndex(d=>d.id===id);if(i>=0&&pages.some(p=>p.key===key)){show(i,key);setOverview(false);}});
+q("#retryImage").onclick=()=>show(index);
+q("#nativeSize").onclick=()=>{nativeSize=true;syncView();};
+q("#fitSize").onclick=()=>{nativeSize=false;syncView();};
+window.addEventListener("resize",syncView);
+syncMotion();show(index);
